@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+
+
+    <form action="/register" method="POST" enctype="multipart/form-data">   
+
+        <fieldset>
+            <strong>Personal Information</strong>
+             <br>
+             
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required minlength="3" maxlength="50" placeholder="Enter your full name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required max="2010"><br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+
+       <fieldset>
+            <strong>Course Details</strong>
+<br>
+<br>
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course" required>
+                <option value=""> Select a Course </option>
+                <option value="web">Web</option>
+                <option value="db">Database </option>
+                <option value="java">Java</option>
+            </select><br><br>
+
+            <label for="experience">Experience Level:</label><br>
+            <input type="range" id="experience" name="experience" min="1" max="5" value="5"><br><br>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="networking" name="interests" value="networking">
+            <label for="networking">Networking</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <strong>Additional Info</strong><br>
+            <br>
+
+            <label for="resume">Upload Resume :</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+
+            <label for="bio">Short Bio :</label><br>
+            <textarea id="bio" name="bio" rows="5" cols="40" maxlength="300" placeholder="Tell us about yourself..."></textarea><br><br>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the Terms & Conditions</label>
+        </fieldset>
+        <br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+</body>
+</html>
