@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tariq - Professional CV</title>
+    <style>
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #f4f6f9 0%, #eef2f7 100%);
+            color: #333333;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .cv-card {
+            max-width: 750px;
+            margin: 0 auto; 
+            background-color: #ffffff;
+            padding: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 12px; 
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+        }
+
+    
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        header > .meta-info h1 {
+            font-size: 2.6rem;
+            color: #1a202c;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        header > .meta-info p {
+            font-size: 1.1rem;
+            color: #4caf50; 
+            font-weight: 600;
+        }
+
+        .profile-frame {
+            width: 110px;
+            height: 110px;
+            object-fit:contain;
+            border-radius: 50%; 
+            border: 3px solid #33c638;
+            box-shadow: 0 4px 12px rgba(54, 205, 59, 0.2);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: #2d3748;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 35px;
+            height: 3px;
+            background: #4caf50;
+            margin-top: 6px;
+            border-radius: 2px;
+        }
+
+   
+        ul {
+            list-style-type: none; 
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 10px;
+            color: #4a5568;
+        }
+
+        ul li::before {
+            content: "▹";
+            color: #4caf50;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        a {
+            color: #2196f3; 
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #4caf50;
+            text-decoration: underline;
+        }
+
+         
+        table {
+            width: 100%;
+            border-collapse: collapse; 
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+
+        th, td {
+            padding: 14px 16px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2d3748;
+            color: #ffffff;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            border-bottom: 1px solid #edf2f7;
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+
+        tr:hover td {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-card">
+        
+        <header>
+            <div class="meta-info">
+                <h1>Tariq</h1>
+                <p>AI Engineering & Intelligent Systems</p>
+            </div>
+            <img src="Img/1778927211504.jpg" alt="Profile Picture" class="profile-frame">
+        </header>
+
+        <h2>Personal Information</h2>
+        <ul>  
+            <li><strong>Name:</strong> Tariq</li>
+            <li><strong>Major:</strong> Intelligent Systems Engineering and Computer Science</li>
+        </ul>
+
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor in Intelligent Systems Engineering and Computer Science — Al-Aqsa University</li>
+        </ul>
+
+        <h2>Experience</h2>
+        <ul>
+            <li>Completed an intensive Front-End Development training system module</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Java Development Environment</li>
+            <li>Front-End Web Development Architecture</li>
+            <li>Python Infrastructure Scripting</li>
+            <li>Machine Learning Pipeline Frameworks</li>
+        </ul>
+        
+        <h2>Contact</h2>
+        <ul>
+            <li>
+                Instagram: 
+                <a href="https://www.instagram.com/tariq_zeyad12" target="_blank">
+                    @tariq_zeyad12
+                </a>
+            </li>
+        </ul>
+
+        <h2>Courses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Sub-Field Focus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Front-End Development</td>
+                    <td>Web Development Frameworks</td>
+                </tr>
+                <tr>
+                    <td>AI Engineering</td>
+                    <td>ML &amp; DL Deep Neural Infrastructures</td>
+                </tr>
+                <tr>
+                    <td>Computer Vision systems</td>
+                    <td>Object Detection Real-time Processing</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
