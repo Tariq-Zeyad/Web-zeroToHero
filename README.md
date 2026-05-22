@@ -1,4 +1,4 @@
-# 📑 Web Development 1 - Assignments & Step-by-Step Learning Journey
+#  Web Development 1 - Assignments & Step-by-Step Learning Journey
 
 Welcome to my repository for the **Web Development 1** course. This repository is dedicated to documenting my learning journey, tracking my progress, and showcasing my solutions for all course assignments step-by-step using HTML, CSS, and JavaScript.
 
@@ -8,7 +8,7 @@ Welcome to my repository for the **Web Development 1** course. This repository i
 
 This course follows a structured, step-by-step path to master the fundamentals of web development:
 
-### 🧱 Phase 1: Structure & Framework with HTML
+### Part 1: Structure & Framework with HTML
 Focuses on understanding how the web works and building the structural skeleton of web pages using **HTML5**, including:
 *   Text formatting, headings, and paragraphs.
 *   Media integration (images, videos, audio).
