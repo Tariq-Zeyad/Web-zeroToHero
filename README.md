@@ -15,13 +15,13 @@ Focuses on understanding how the web works and building the structural skeleton 
 *   Lists, tables, and structured web forms.
 *   Implementing Semantic HTML for better SEO and accessibility.
 
-### 🎨 Phase 2: Design & Styling with CSS
+### Part 2: Design & Styling with CSS
 Once the structure is solid, we move on to bringing the web pages to life using **CSS3**, focusing on:
 *   Colors, typography, backgrounds, and the Box Model.
 *   Layout systems using Flexbox and CSS Grid.
 *   Responsive Web Design (RWD) to make pages look great on mobile, tablet, and desktop screens.
 
-### ⚡ Phase 3: Interactivity & Logic with JavaScript
+### Part 3: Interactivity & Logic with JavaScript
 The final phase connects everything together, turning static pages into dynamic, interactive web applications using **JS**:
 *   Variables, data types, functions, and arrays.
 *   DOM Manipulation (controlling and updating page elements dynamically).
@@ -38,14 +38,13 @@ This table tracks the status and details of each assignment as they are assigned
 | **Assignment 01: Personal CV** | HTML | Building a personal resume page utilizing headings, paragraphs, images, lists, links, and tables. | ✔️ Completed |
 | **Assignment 02: Registration Form** | HTML | Creating a comprehensive user registration form with advanced inputs, dropdowns, sliders, file uploads, and validation. | ✔️ Completed |
 | **Assignment 03: Semantic Blog Page** | HTML | Creating a structured blog article page practicing semantic tags like `<article>`, `<aside>`, `<figure>`, `<time>`, and `<address>`. | ✔️ Completed |
-| **Assignment 04** | CSS | *To be updated upon assignment release* | ⏳ Not Started |
+| **Assignment 04: Style Your CV** | CSS | Applying CSS styles to the personal resume page using typography, colors, padding, margins, and the Box Model to enhance its visual appeal. | ✔️ Completed |
 | **Assignment 05** | CSS | *To be updated upon assignment release* | ⏳ Not Started |
 | **Assignment 07** | Bootstrap | *To be updated upon assignment release* | ⏳ Not Started |
 | **Assignment 08** | JavaScript | *To be updated upon assignment release* | ⏳ Not Started |
 | **Assignment 09** | JavaScript | *To be updated upon assignment release* | ⏳ Not Started |
 | **Assignment 10** | PHP | *To be updated upon assignment release* | ⏳ Not Started |
 | **Assignment 11** | PHP | *To be updated upon assignment release* | ⏳ Not Started |
-
 ---
 
 ##  Student Information
